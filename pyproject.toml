@@ -1,0 +1,8 @@
+[project]
+name = "workers-fastapi-python"
+version = "1.0.0"
+requires-python = ">=3.13"
+dependencies = ["fastapi"]
+
+[dependency-groups]
+dev = ["workers-py==1.17.5", "workers-runtime-sdk==1.9.2"]
